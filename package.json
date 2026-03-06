@@ -1,0 +1,7 @@
+{
+  "name": "dsa-patterns-js",
+  "version": "1.0.0",
+  "scripts": {
+    "new": "node scripts/create-problem.js"
+  }
+}
