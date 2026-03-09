@@ -4,7 +4,9 @@
   "scripts": {
     "new": "node scripts/create-problem.js",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "start:practice": "node scripts/practice.js",
+    "practice": "jest __practice__/solution.test.js --watch"
   },
   "description": "This repository is used to practice **Data Structures & Algorithms** with a focus on **backend/full-stack interview preparation**.\r The goal is to organize problems by **pattern/topic**, maintain **clear notes**, and track **progress consistently**.",
   "main": "index.js",
